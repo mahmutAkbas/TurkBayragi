@@ -1,4 +1,4 @@
 # TurkBayragi
 
 
-![TürkBayrağı](https://hizliresim.com/iikqeg)
+![bayrak](https://hizliresim.com/iikqeg)
