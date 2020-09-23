@@ -31,13 +31,14 @@ class TurkBayrak extends StatelessWidget {
   TurkBayrak({this.G});
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 1.5 * G,
-      height: G,
-      color: Colors.red,
+    return 
       child: Stack(
         overflow: Overflow.clip,
         children: <Widget>[
+          Container(
+      width: 1.5 * G,
+      height: G,
+      color: Colors.red),
           //Büyük Daire
           Positioned(
               top: 0.25 * G,
@@ -72,7 +73,6 @@ class TurkBayrak extends StatelessWidget {
             ),
           )
         ],
-      ),
     );
   }
 }
